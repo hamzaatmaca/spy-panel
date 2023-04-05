@@ -1,0 +1,46 @@
+.userCam {
+  border-radius: 20px;
+  box-shadow: 0 0 20px grey;
+}
+
+.loginContainer {
+  background-color: rgb(217, 236, 248);
+  padding: 4rem;
+  margin-top: 10% !important;
+  border-radius: 15px;
+  width: 100%;
+  box-shadow: 0 0 3px rgb(7, 6, 6);
+}
+
+.loginHeader {
+  color: rgb(54, 53, 53);
+  letter-spacing: 4px;
+  font-weight: bolder;
+}
+
+.loginButton {
+  background-color: rgb(65, 66, 65);
+  width: 50%;
+  border: none;
+  color: rgb(233, 230, 230);
+  letter-spacing: 4px;
+  font-weight: bolder;
+}
+
+.loginButton:hover {
+  background-color: rgb(49, 48, 48);
+  color: white;
+}
+
+.loginInput {
+  box-shadow: 0 0 3px grey;
+}
+
+.register {
+  letter-spacing: 2px;
+  transition: 0.3s ease;
+}
+.register:hover {
+  cursor: pointer;
+  color: grey;
+}
