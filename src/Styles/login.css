@@ -6,7 +6,8 @@
 .loginContainer {
   background-color: rgb(217, 236, 248);
   padding: 4rem;
-  margin-top: 10% !important;
+  margin-top: 10rem !important;
+  margin-bottom: 2rem;
   border-radius: 15px;
   width: 100%;
   box-shadow: 0 0 3px rgb(7, 6, 6);
@@ -43,4 +44,17 @@
 .register:hover {
   cursor: pointer;
   color: grey;
+}
+
+.logoImage {
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .logoImage {
+    margin-bottom: 4rem;
+  }
+  .loginContainer {
+    width: 90%;
+  }
 }
