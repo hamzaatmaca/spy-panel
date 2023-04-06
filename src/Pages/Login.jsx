@@ -28,8 +28,15 @@ const Login = () => {
   return (
     <div className="container loginContainer mt-5">
       <div className="row mt-5 mb-5">
-        <div className="col-sm-5">
-          <img width={500} src={logo} className="ecommerceImge" />
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+          className="col-sm-5"
+        >
+          <img src={logo} className="logoImage" />
         </div>
         <div className="col-sm-1"></div>
         <div className="col-sm-5">
