@@ -18,9 +18,9 @@ const fetchAxiosData = (url, method, payload) => {
 
 const fetchService = (url, method, payload) => {
   return new Promise((resolve, reject) => {
-    // if (typeof method !== "string" || method === undefined || method === null) {
-    //   reject(new Error(`method can not be empty`));
-    // }
+    if (typeof method !== "string" || method === undefined || method === null) {
+      reject(new Error(`method can not be empty`));
+    }
 
     if (
       method.toUpperCase().trim() != "GET" &&
