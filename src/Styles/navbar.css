@@ -1,0 +1,18 @@
+.navLogoutLayout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 10rem;
+  font-size: 17px;
+  color: red;
+}
+
+.navLogoutLayout:hover {
+  cursor: pointer;
+}
+
+.navbarLogo {
+  width: 5rem;
+  margin-left: 1rem;
+}

@@ -29,7 +29,7 @@ const Register = () => {
     };
     const validate = validation(payload);
     if (validate) {
-      fetchService("register", "POST")
+      fetchService("register", "POST", payload)
         .then((res) => {
           console.log(res);
           setTimeout(() => {

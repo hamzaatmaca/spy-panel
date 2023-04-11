@@ -12,7 +12,10 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route element={<ProtectedRoutes />}>
-            <Route path="/" element={<Dashboard />} />
+            <Route
+              path={window.location.pathname}
+              element={<Dashboard route={window.location.pathname} />}
+            />
           </Route>
         </Routes>
       </BrowserRouter>
